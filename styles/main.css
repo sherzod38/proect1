@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: blanchedalmond;
+
+
+
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0 16px 0;
+}
+
+.header-midl a {
+  padding-left: 17px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+ 
+  
+
+}
+
+.dropdown-menu {
+   display: none;
+   position: absolute;
+
+}
+
+.dropdown-menu a{
+  color: black;
+  padding: 12px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 15px;
+  
+}
+
+.dropdown:hover .dropdown-menu {
+  background-color: #29a035;
+  font-size: 18px;
+}
+
+.dropdown-menu a:hover {
+  background-color: red
+}
+
+.dropdown-menu a:active {
+  background-color: blueviolet;
+}
+
+
+
